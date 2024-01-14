@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    ;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul li a {
+    color: #424242;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.section-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-contents {
+    text-align: center;
+}
+
+.banner-contents h3 {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 32px 0;
+}
+
+.btn-primary {
+    padding: 20px 24px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: 0;
+}
+
+.img {
+    padding: 0px 150px;
+}
+
+.img img {
+    margin-top: 50px;
+    padding-bottom: 45px;
+    width: 100%;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team-member-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 85px;
+    margin-left: 50px;
+}
+
+.team-contents {
+    margin-left: 30px;
+}
+
+.team-contents h3 .first {
+    color: #727272;
+    font-size: 2.9rem;
+    font-weight: 500;
+}
+
+.team-contents h3 .last {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.before {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features {
+    margin: 140px 30px 30px 30px;
+}
+
+.feature-contents {
+    display: flex;
+    margin: 0 30px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.card-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0px;
+}
+
+.cards {
+    width: 50%;
+}
+
+.features-card {
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.overlap-badge {
+    width: 40%;
+}
+
+.overlap-badge img {
+    width: 100%;
+}
+
+.overlap {
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    text-align: center;
+    padding: 45px;
+    position: relative;
+    bottom: 100px;
+    left: -92px;
+}
+
+.year {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.experience {
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.testimonial {
+    padding: 30px;
+}
+
+.testiomonial-contents {
+    display: flex;
+    justify-content: space-around;
+}
+
+.outputs {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.stats {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.title {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.main-sponsors {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.main-sponsors img {
+    filter: grayscale(1);
+}
+
+footer {
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    padding: 39px 0px;
+    text-align: center;
+    margin: 130px 50px 130px 50px;
+}
